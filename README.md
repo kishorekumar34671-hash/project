@@ -1,5 +1,5 @@
 # Project Responsive Web Design using Bootstrap
-# Date:
+# Date:08-10-2025
 # AIM:
 To create a simplified clone of Dribbble (https://dribbble.com/) landing page.
 
@@ -23,6 +23,133 @@ Create a HTML file and include the needed Bootstrap components.
 Publish the website in the LocalHost.
 
 # PROGRAM :
+pro.html
+```
+!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dribbble Clone</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+    .hero {
+      background-color: #f9f9f9;
+      padding: 80px 0;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: 600;
+    }
+    .card img {
+      height: 200px;
+      object-fit: cover;
+    }
+    footer {
+      background: #222;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold text-danger" href="#">DribbbleClone</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item mx-2"><a class="nav-link" href="#">Inspiration</a></li>
+        <li class="nav-item mx-2"><a class="nav-link" href="#">Find Work</a></li>
+        <li class="nav-item mx-2"><a class="nav-link" href="#">Learn Design</a></li>
+        <li class="nav-item mx-2"><a class="btn btn-dark text-white px-3" href="#">Sign up</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<section class="hero">
+  <div class="container">
+    <h1 class="mb-3">Discover the world’s top designers & creatives</h1>
+    <p class="lead text-muted mb-4">Dribbble is the leading destination to find & showcase creative work.</p>
+    <div class="d-flex justify-content-center">
+      <input type="text" class="form-control w-50 me-2" placeholder="Search for design inspiration...">
+      <button class="btn btn-danger">Search</button>
+    </div>
+  </div>
+</section>
+
+
+<section class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4 fw-bold">Popular Shots</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card border-0 shadow-sm">
+          <img src="mockup.png" class="card-img-top" alt="Design 1">
+          <div class="card-body">
+            <h6 class="card-title mb-0">Creative UI Mockup</h6>
+            <p class="text-muted small mb-0"><i class="bi bi-heart text-danger"></i> 1.2k</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card border-0 shadow-sm">
+          <img src="minimal.png" class="card-img-top" alt="Design 2">
+          <div class="card-body">
+            <h6 class="card-title mb-0">Minimal Branding Design</h6>
+            <p class="text-muted small mb-0"><i class="bi bi-heart text-danger"></i> 980</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card border-0 shadow-sm">
+          <img src="modern illustration.png" class="card-img-top" alt="Design 3">
+          <div class="card-body">
+            <h6 class="card-title mb-0">Modern Illustration</h6>
+            <p class="text-muted small mb-0"><i class="bi bi-heart text-danger"></i> 1.4k</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="py-5 bg-light text-center">
+  <div class="container">
+    <h3 class="fw-bold">Join the creative community</h3>
+    <p class="text-muted">Showcase your work and explore projects from others.</p>
+    <a href="#" class="btn btn-danger px-4">Get Started</a>
+  </div>
+</section>
+
+
+<footer>
+  <div class="container">
+    <p class="mb-0">&copy; 2025 Dribbble Clone. Designed with ❤️ using Bootstrap.</p>
+  </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+```
+
 # OUTPUT:
+![alt text](output.png)
 # RESULT:
 The Project for responsive web design using Bootstrap is completed successfully.
