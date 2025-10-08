@@ -143,7 +143,7 @@ pro.html
   </div>
 </footer>
 
-<!-- Bootstrap JS -->
+
 <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
